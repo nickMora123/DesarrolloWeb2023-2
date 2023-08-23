@@ -1,0 +1,58 @@
+main{
+    display: grid;
+       border: 1px solid black;
+    grid-template-columns: 1fr 1fr 1fr 1fr  1fr;
+    grid-template-areas:
+    "header header  header  header header"
+    "aside  section section section section"
+    "footer footer  footer  footer  footer";
+    row-gap: 0;
+    column-gap: 0;
+    grid-template-rows: 20% 70% 10%; /* alto de cada fila */
+    height: 98vh;/* alto de la pagina */
+}
+
+header {
+    grid-area: header;
+    border: 1px solid black;
+}
+    .box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    /* #logo{
+        width: 500px;
+        height: x;
+    } */
+    #logo_uniguajira 
+    {
+        width: 40%;
+        height: 30%;
+        
+    }
+    #titulo {
+       width: 50%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    #autenticacion {
+        border: 1px solid black;
+    }
+
+aside {
+    grid-area: aside;
+    border: 1px solid black;
+}
+
+section {
+    grid-area: section;
+    border: 1px solid black;
+}
+
+footer {
+    grid-area: footer;
+    border: 1px solid black;
+}
+
