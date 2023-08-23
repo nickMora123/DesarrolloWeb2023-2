@@ -7,4 +7,9 @@ h1 {
 #nicolas{
     color: aqua;
     font-size: 20px;
+    border: violet;
+}
+.normal {
+  width: 250px;
+  border: 1px solid #000;
 }
